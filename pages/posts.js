@@ -1,8 +1,10 @@
+import Heading from "../components/Heading";
+
 const Posts = () => (
     <>
-        <h1>Posts list:</h1>
+        <Heading text="Posts list:" />
         <p>Действие Готики 2 начинается примерно через три недели после событий оригинальной Готики. </p>
     </>
 )
 
-export default Posts
+export default Posts;

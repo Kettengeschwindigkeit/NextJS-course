@@ -1,5 +1,7 @@
-const Contact = () => (
-    <h1>Jack</h1>
-)
+import Heading from "../../components/Heading";
 
-export default Contact
+const Contact = () => (
+    <Heading text="Jack" />
+);
+
+export default Contact;
