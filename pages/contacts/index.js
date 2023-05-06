@@ -18,9 +18,6 @@ export const getStaticProps = async () => {
 };
 
 const Contacts = ({ contacts }) => {
-
-
-
     return (
         <>
             <Head>
